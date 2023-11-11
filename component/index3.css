@@ -1,0 +1,49 @@
+ /* CSS units  
+ 
+ 1.px : absolute unites of measurement: does not change with screen size
+ 2.% : relative to parent html element
+ 3.em : relative - takes the value of the parent and multiples the factor in em
+ 4.rem: relative ; are basically used with root elements ex.html tag font size is 16px
+ 5.vh:relative
+ 6.vw: relative
+
+ default fontsize of any browser is 16px
+*/
+
+ ul{
+     width: 100%;
+    }
+    
+    li{
+        width: 50%; /* 50% of 400px=200px */
+    }
+ul{
+    font-size: 10px;
+}
+    
+
+ li{
+    font-size: 2em; /* 2*10px =20px*/
+ }
+  
+ a{font-size: 3em; 
+/* 3*20px=60px */
+}
+
+span{
+    font-size: 0.5em;
+    /* 0.5*60=30px */
+}
+
+
+
+/* rem */
+
+ul{
+    font-size: 10px;
+}
+
+li{
+    font-size: 2rem;  
+    /* 2*16px=32px */
+}
