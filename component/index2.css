@@ -1,12 +1,27 @@
  /* CSS Combinators */
+
  
- /* 1.Desenent selector  */
+ /* 1.Desenent selector
+    2.Adjecent sibling
+    3.General sibling combinator
+    4.child
+          */
 
 .listone .list{
     color: red;
 }
 
-/* Adjecent siblings combinator  read it from right to left*/
-ul +h2{
+/* Adjecent siblings combinator  read it from right to left : meaning the css is coming after ul is called adjecent sibling*/
+ul + h2{
     color: blueviolet;
+}
+
+/* General sibling combinator: meaning all the subling which are coming after ul needs to be targeting  */
+
+ul ~ h2{
+    color:chartreuse
+}
+
+ul > .list{
+    background-color: aqua;
 }
