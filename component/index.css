@@ -1,0 +1,26 @@
+.list{
+    color: red;
+}
+
+.cssTypes{
+    color: blue;
+    font-size: 20px;
+}
+
+#internal{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: pink;
+}
+
+li{
+    color: aqua;
+}
+
+/* id have much more higest specificity of class  */
+
+/* order of precidence or priority 
+ID > CLASSES >HTML elements
+cascading occurs over same specificity - overwriting as well as carry forwords
+*/
