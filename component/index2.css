@@ -5,3 +5,8 @@
 .listone .list{
     color: red;
 }
+
+/* Adjecent siblings combinator  read it from right to left*/
+ul +h2{
+    color: blueviolet;
+}
